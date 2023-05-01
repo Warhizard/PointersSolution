@@ -1,10 +1,16 @@
 ﻿#include <iostream>
 using namespace std;
 
+
+//#define DYNAMYC_MEMORY
+
 #define Delimiter "----------------------------------------";
 
 void FillRand(int arr[], const int n);
+
 void Print(int arr[], const int n);
+
+
 int* push_back(int* arr, int& n, int value);
 int* push_front(int* arr, int& n, int value);
 int* insert(int* arr, int& n, int value, int index);
@@ -14,6 +20,7 @@ int* pop_front(int* arr, int& n);
 void main() 
 {
 	setlocale(LC_ALL, "");
+#ifdef DYNAMYC_MEMORY
 	int n;
 	cout << "Введите количество элементов: "; cin >> n;
 	int* arr = new int[n];
@@ -42,6 +49,8 @@ void main()
 	Print(arr, n);
 
 	delete[] arr;
+#endif // DYNAMYC_MEMORY
+		
 }
 
 void FillRand(int arr[], const int n)
@@ -53,6 +62,9 @@ void FillRand(int arr[], const int n)
 	}
 }
 
+
+
+
 void Print(int arr[],const int n)
 {
 	cout << typeid(arr).name() << endl;
@@ -62,6 +74,8 @@ void Print(int arr[],const int n)
 	}
 	cout << endl;
 }
+
+
 
 int* push_back(int* arr, int& n, int value)
 {

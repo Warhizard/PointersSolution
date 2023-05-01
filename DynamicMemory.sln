@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointersSolution", "PointersSolution\PointersSolution.vcxproj", "{9257FF01-3908-42AB-AA55-F505CA04AD87}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoDimensional_dynamicArr", "TwoDimensional_dynamicArr\TwoDimensional_dynamicArr.vcxproj", "{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{9257FF01-3908-42AB-AA55-F505CA04AD87}.Release|x64.Build.0 = Release|x64
 		{9257FF01-3908-42AB-AA55-F505CA04AD87}.Release|x86.ActiveCfg = Release|Win32
 		{9257FF01-3908-42AB-AA55-F505CA04AD87}.Release|x86.Build.0 = Release|Win32
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Debug|x64.ActiveCfg = Debug|x64
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Debug|x64.Build.0 = Debug|x64
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Debug|x86.Build.0 = Debug|Win32
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Release|x64.ActiveCfg = Release|x64
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Release|x64.Build.0 = Release|x64
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Release|x86.ActiveCfg = Release|Win32
+		{2CD53AA7-4887-464C-86B7-3C7D0B1C1D2C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
